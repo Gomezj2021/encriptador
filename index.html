@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Chalellenge Alura Latam</title>
+</head>
+<body> 
+    <nav class="nav"> </nav>
+    <img class="logoAlura" src="img/Vector.png" alt="logo de alura">
+    
+
+    <h1>Challenge Encriptador</h1>
+    <img class="team" src="img/team.png" alt="ilustracion de personas trabajando">
+
+<main>
+
+    <div class="contenedor1"> 
+        <input type="text" class="ingresoDeFrase" id="input1"  oninput="cambio()"  placeholder="Ingrese el texto que desea encriptar aqui..."> </input>
+    </div>
+    
+    <div class="observacion">
+        <img src="img/Frame 1.png" class="signo" alt="signo de alerta">
+        <p class="parrafo1" id="parrafoAlerta" >Solamente letras minúsculas sin acento.</p>
+    </div>
+    
+        <div class="boton1">
+            <input type="button" class="botonEncriptar" onclick="encriptar()" id="boton" value="Encriptar">
+        </div>
+    
+    
+    <div class="contenedor2">
+        <input type="text" class="cuadroRespuesta" id="input2"  placeholder="mensaje encriptado"> </input>
+    </div>
+    
+    
+     <div class="botonesInf">
+            
+        <div class="boton2">
+            <input type="button" class="botonDesencriptar" onclick="desencriptar()" id="desencriptar" value="Desencriptar">
+            
+        </div> 
+
+        <div class="boton3">
+            <input type="button" class="botonCopiar"  value="Copiar">
+        </div>
+
+    </div> 
+    
+    
+     <p  class="mensajeFinal" id="mensajeFinal"> </p>
+
+            <div class="imgFinal">
+                <img src="img/Muñeco.png" id="img1"  alt="buscando">
+                
+             </div>    
+</main>
+
+    <footer>JONATAN GOMEZ</footer>
+<script src="script.js"></script>
+</body>
+</html>

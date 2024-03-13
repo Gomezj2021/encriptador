@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.nav {
+    width: 100% vw;
+    height: 48px;
+    background-color: rgba(10, 56, 113, 1);
+}
+.logoAlura {
+    width: 18px;
+    height: 28px;
+    position: relative;
+    bottom: 38px;
+    left: 15px;
+}
+body {
+    
+    background: #f3f5fe;
+    
+}
+
+main {
+    width: 100%;
+    max-width: 365px;
+    height: 520px;
+    bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+h1 {
+width: 137px;
+height: 66px;
+font-size: 25px;
+position: relative;
+top: 12px; 
+left: 35px;
+}
+.team {
+    width: 136px;
+    height: 97px;
+    position: relative;
+    left: 210px;
+    bottom: 80px;
+
+}
+.contenedor1, .contenedor2 {
+ margin-left: auto;
+ margin-right: auto;
+ width: 387px;
+ height: 104px;
+ 
+ 
+}
+.contenedor1 {
+position: relative;
+bottom: 60px;
+}
+.boton1 {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresoDeFrase, .cuadroRespuesta {
+    width: 94%;
+    height: 120px;
+    background: rgba(255, 255, 255);
+    border: none;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 1);
+    padding: 10px; /* Agrega relleno interno para separar el texto del borde */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    box-sizing: border-box;
+    padding-bottom: 20%;
+}
+::placeholder {
+    position: relative;
+    left: 5px;
+    font-size: 14px;
+    color: rgba(10, 56, 113, 1);
+    
+    
+}
+.observacion {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    display: flex;
+    
+    
+}
+.signo {
+    width: 16px;
+    height: 14px;
+    position: relative;
+    top: 15px;
+}
+.parrafo1 {
+    position: relative;
+    top: 16px;
+    left: 6px;
+    font-size: 12px;
+    transition: font-size 0.2s;
+
+}
+
+.botonEncriptar, .botonDesencriptar, .botonCopiar {
+    background-color: rgba(10, 56, 113, 1);
+    border-radius: 8px;
+    width: 130px;
+    height: 36px;
+    color: white;
+   
+}
+
+.botonEncriptar:active{
+    background-color: rgba(217, 217, 217, 1);
+}
+.botonDesencriptar:active{
+    background-color: rgba(217, 217, 217, 1);
+}
+.botonCopiar:active {
+    background-color: rgba(217, 217, 217, 1); 
+} 
+
+.botonesInf {
+    position: relative;
+    display: flex;
+    top: 40px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.mensajeFinal {
+    position: relative;
+    top: 60px;
+    height: 100PX;
+    text-align: center;
+}
+
+.imgFinal {
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    width: 80% vw;
+    height: 130px;
+}
+ 
+footer {
+    position: relative;
+    
+    width: 100 vw;
+    height: 60px;
+    background-color: rgba(10, 56, 113, 1);
+    color: #f3f5fe;
+    text-align: center;
+    padding-top: 12px;
+}
